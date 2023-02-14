@@ -1,0 +1,32 @@
+/*variables Globales*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;400;600;800&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+/*Variables Globales*/
+/*Secciones*/
+* {
+  margin: auto;
+  padding: inherit;
+  font-family: 'Montserrat', sans-serif; }
+
+.header {
+  background: #81a352;
+  background: linear-gradient(90deg, #81a352 0%, #676f4d 99%);
+  background: -moz-linear-gradient(90deg, #81a352 0%, #676f4d 99%);
+  background: -webkit-linear-gradient(90deg, #81a352 0%, #676f4d 99%);
+  display: flex;
+  align-items: center; }
+
+.img-logo {
+  width: 100px; }
+
+.navbar {
+  background: #81a352;
+  background: linear-gradient(90deg, #81a352 0%, #676f4d 99%);
+  background: -moz-linear-gradient(90deg, #81a352 0%, #676f4d 99%);
+  background: -webkit-linear-gradient(90deg, #81a352 0%, #676f4d 99%); }
+
+.navbar-nav a:hover {
+  background: #8BA975; }
