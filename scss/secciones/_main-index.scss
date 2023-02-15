@@ -1,4 +1,4 @@
-
+/*:::::Main-index*/
 .presentacion {
     background: hsla(85, 33%, 48%, 1);
 
@@ -19,6 +19,7 @@
     text-align: center;
     margin: .5rem; 
     width: 90%;
+
 }
 .prod-grid{
     display: grid;
@@ -26,7 +27,7 @@
     
 }
 .producto img{
-    width: 50vw;
+    width: 50%;
 }
 h2 {
     display: block;

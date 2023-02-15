@@ -1,0 +1,68 @@
+/*:::::Main-contacto*/
+.main-contacto{
+    background:  hsla(85, 33%, 48%, 1);
+
+    background: radial-gradient(circle, rgb(171, 206, 122) 0%, hsla(0, 0%, 0%, 1) 100%);
+
+    background: -moz-radial-gradient(circle, hsla(85, 33%, 48%, 1) 0%, hsla(0, 0%, 0%, 1) 100%);
+
+    background: -webkit-radial-gradient(circle, hsla(85, 33%, 48%, 1) 0%, hsla(0, 0%, 0%, 1) 100%);
+
+    color: white;
+    text-align: center;
+    padding: 10px;;
+    background-size: 100vw;
+}
+.form{
+    width: 450px;
+    margin: auto;
+    // background: hsla(0, 0%, 0%, 0.4)
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    border-radius: 7px;
+}
+
+.contacto{
+    color: white;
+    text-align: center;
+    margin: 0;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.input{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+}
+.textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    min-height: 100px;
+    max-height: 300px;
+    max-width: 300px;
+}
+.boton{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    background-color: hsl(85, 59%, 18%);
+    color: #fff;
+    padding: 20px;
+}
+.boton :hover{
+    cursor: pointer;
+}
+
+@media (max-width:480px){
+    .form{
+        width: 100%;
+    }
+}
