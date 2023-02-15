@@ -1,0 +1,39 @@
+
+.presentacion {
+    background: hsla(85, 33%, 48%, 1);
+
+    background: radial-gradient(circle, rgb(171, 206, 122) 0%, hsla(0, 0%, 0%, 1) 100%);
+
+    background: -moz-radial-gradient(circle, hsla(85, 33%, 48%, 1) 0%, hsla(0, 0%, 0%, 1) 100%);
+
+    background: -webkit-radial-gradient(circle, hsla(85, 33%, 48%, 1) 0%, hsla(0, 0%, 0%, 1) 100%);
+
+    color: white;
+    text-align: center;
+    padding: 10px;
+    // height: 30vh;
+    
+}
+.producto{
+    width: 50vw;
+    text-align: center;
+    margin: .5rem; 
+    width: 90%;
+}
+.prod-grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+.producto img{
+    width: 50vw;
+}
+h2 {
+    display: block;
+    font-size: 1.5em;
+    // margin-block-start: 0.83em;
+    // margin-block-end: 0.83em;
+    // margin-inline-start: 0px;
+    // margin-inline-end: 0px;
+    font-weight: bold;
+}

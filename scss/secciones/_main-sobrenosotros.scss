@@ -1,0 +1,12 @@
+.main-nosotros p{
+    background: #81a352;
+
+    background: linear-gradient(90deg, hsla(85, 33%, 48%, 1) 0%, rgb(103, 111, 77) 99%);
+
+    background: -moz-linear-gradient(90deg, hsla(85, 33%, 48%, 1) 0%, hsla(74, 18%, 37%, 1) 99%);
+
+    background: -webkit-linear-gradient(90deg, hsla(85, 33%, 48%, 1) 0%, #676f4d 99%);
+    display: flex;
+ 
+    align-items: center;
+}
