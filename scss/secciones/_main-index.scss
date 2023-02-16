@@ -24,6 +24,17 @@
 .prod-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    background: hsla(85, 33%, 48%, 1);
+
+    background: radial-gradient(circle, rgb(171, 206, 122) 0%, hsla(0, 0%, 0%, 1) 100%);
+
+    background: -moz-radial-gradient(circle, hsla(85, 33%, 48%, 1) 0%, hsla(0, 0%, 0%, 1) 100%);
+
+    background: -webkit-radial-gradient(circle, hsla(85, 33%, 48%, 1) 0%, hsla(0, 0%, 0%, 1) 100%);
+
+    color: white;
+    text-align: center;
+    padding: 10px; ;
     
 }
 .producto img{
