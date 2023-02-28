@@ -11,7 +11,7 @@
 }
 .texto{
     text-align: center;
-    color: #7777;
+    color: white;
     margin: 20px 0;   
 }
 .servicios{
@@ -21,7 +21,7 @@
     justify-content: space-evenly;
     flex-wrap: wrap;
 }
-.servicio{
+.servicio {
     font-size: 20px;
     width: 10em;
     height: 10em;
@@ -34,5 +34,11 @@
     justify-content: center;
     border-radius: 50%;
     text-align: center;
+}
+
+.servicio background-image:hover{
+    filter: grayscale(0);
+    width:  calc(var(--s)*var(--f));
+    height: calc(var(--s)*var(--f));
 }
 

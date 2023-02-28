@@ -155,7 +155,9 @@ h2 {
   align-items: center;
   border: 1px solid black;
   text-align: center;
-  color: white; }
+  color: white;
+  padding: 8%;
+  margin: 0; }
 
 /*:::::Main-galeria*/
 .main-galeria {
@@ -278,7 +280,7 @@ h2 {
 
 .texto {
   text-align: center;
-  color: #7777;
+  color: white;
   margin: 20px 0; }
 
 .servicios {
@@ -301,3 +303,8 @@ h2 {
   justify-content: center;
   border-radius: 50%;
   text-align: center; }
+
+.servicio background-image:hover {
+  filter: grayscale(0);
+  width: calc(var(--s)*var(--f));
+  height: calc(var(--s)*var(--f)); }
