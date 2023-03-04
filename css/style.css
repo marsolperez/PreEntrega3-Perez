@@ -146,18 +146,86 @@ h2 {
   font-weight: bold; }
 
 /*:::::Main-nosotros*/
-.main-nosotros p {
+.nosotros__main {
   background: #81a352;
-  background: linear-gradient(90deg, #81a352 0%, #676f4d 99%);
-  background: -moz-linear-gradient(90deg, #81a352 0%, #676f4d 99%);
-  background: -webkit-linear-gradient(90deg, #81a352 0%, #676f4d 99%);
+  background: radial-gradient(circle, #abce7a 0%, black 100%);
+  background: -moz-radial-gradient(circle, #81a352 0%, black 100%);
+  background: -webkit-radial-gradient(circle, #81a352 0%, black 100%); }
+
+.nosotros__main--foto {
+  overflow: hidden;
+  border-radius: 15px;
   display: flex;
+  justify-content: space-around;
   align-items: center;
-  border: 1px solid black;
+  margin: 30px; }
+
+.nosotros__main {
+  margin: auto;
+  width: 100%;
+  overflow: hidden;
+  display: grid;
+  grid-auto-rows: max-content;
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); }
+
+.nosotros__main img {
+  max-width: 70%;
+  height: auto;
+  background-color: #81a352;
+  border-radius: 8px;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175); }
+
+@media screen and (max-width: 1150px) {
+  .nosotros .nosotros-foto {
+    max-width: 85%; } }
+
+@media screen and (max-width: 642px) {
+  .nosotros__main {
+    width: 100%;
+    margin: auto;
+    background-size: 100vw; }
+  .nosotros__main--foto {
+    margin: 30px;
+    margin: auto; } }
+
+@media screen and (max-width: 458px) {
+  .nosotros__main {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); }
+  .nosotros .nosotros-foto {
+    max-width: 95%; }
+  .nosotros__main--foto {
+    margin: 30px; } }
+
+.nosotros__mainParrafo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 0.5em;
+  margin: 30px;
   text-align: center;
+  background-color: #81a352;
+  border-radius: 10px;
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175); }
+
+.nosotros__mainParrafo h1 {
   color: white;
-  padding: 8%;
-  margin: 0; }
+  font-weight: bold; }
+
+.nosotros__mainParrafo p {
+  font-size: 15px;
+  color: white;
+  padding: 5px;
+  margin: 5px; }
+
+@media (max-width: 458px) {
+  .nosotros__mainParrafo p {
+    font-size: 13px; } }
+
+.top-section {
+  text-align: center;
+  padding: 4rem 0;
+  max-width: 600px;
+  margin: 0 auto; }
 
 /*:::::Main-galeria*/
 .main-galeria {
@@ -303,8 +371,3 @@ h2 {
   justify-content: center;
   border-radius: 50%;
   text-align: center; }
-
-.servicio background-image:hover {
-  filter: grayscale(0);
-  width: calc(var(--s)*var(--f));
-  height: calc(var(--s)*var(--f)); }

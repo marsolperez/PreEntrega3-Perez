@@ -1,20 +1,85 @@
 /*:::::Main-nosotros*/
-.main-nosotros p{
-    background: #81a352;
+.nosotros__main {
+  background:  hsla(85, 33%, 48%, 1);
 
-    background: linear-gradient(90deg, hsla(85, 33%, 48%, 1) 0%, rgb(103, 111, 77) 99%);
+  background: radial-gradient(circle, rgb(171, 206, 122) 0%, hsla(0, 0%, 0%, 1) 100%);
 
-    background: -moz-linear-gradient(90deg, hsla(85, 33%, 48%, 1) 0%, hsla(74, 18%, 37%, 1) 99%);
+  background: -moz-radial-gradient(circle, hsla(85, 33%, 48%, 1) 0%, hsla(0, 0%, 0%, 1) 100%);
 
-    background: -webkit-linear-gradient(90deg, hsla(85, 33%, 48%, 1) 0%, #676f4d 99%);
-    display: flex;
-    align-items: center;
-
-    border: 1px solid black;
-    text-align: center;
-    color: white;
-
-    padding: 8%;
-    margin: 0;
+  background: -webkit-radial-gradient(circle, hsla(85, 33%, 48%, 1) 0%, hsla(0, 0%, 0%, 1) 100%);
 }
 
+.nosotros__main--foto {
+    overflow: hidden;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px; }
+  
+  .nosotros__main {
+    margin: auto;
+    width: 100%;
+    overflow: hidden;
+    display: grid;
+    grid-auto-rows: max-content;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); }
+    .nosotros__main img {
+      max-width: 70%;
+      height: auto;
+      background-color: #81a352;
+      border-radius: 8px;
+      box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175); }
+  
+  @media screen and (max-width: 1150px) {
+    .nosotros .nosotros-foto {
+      max-width: 85%; } }
+  
+  @media screen and (max-width: 642px) {
+    .nosotros__main {
+      width: 100%;
+      margin: auto;
+      background-size: 100vw;
+    }
+    .nosotros__main--foto {
+      margin: 30px; 
+      margin: auto;} }
+  
+  @media screen and (max-width: 458px) {
+    .nosotros__main {
+      grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); }
+    .nosotros .nosotros-foto {
+      max-width: 95%; }
+    .nosotros__main--foto {
+      margin: 30px; } }
+  
+  .nosotros__mainParrafo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 0.5em;
+    margin: 30px;
+    text-align: center;
+    background-color: #81a352;
+    border-radius: 10px;
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.175); }
+  
+  .nosotros__mainParrafo h1 {
+    color: white;
+    font-weight: bold; }
+
+  .nosotros__mainParrafo p {
+    font-size: 15px;
+    color: white;
+    padding: 5px;
+    margin: 5px; }
+  
+  @media (max-width: 458px) {
+    .nosotros__mainParrafo p {
+      font-size: 13px; } }
+  
+  .top-section {
+    text-align: center;
+    padding: 4rem 0;
+    max-width: 600px;
+    margin: 0 auto; }
