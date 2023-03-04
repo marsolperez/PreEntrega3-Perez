@@ -1,38 +1,133 @@
-/*:::::Main-galeria*/
+/*:::::Main-servicios inicio*/
 .main-servicios{
-    background-color: #283618;;
-}
-.titulo-seccion{
+    background-color: #283618;
     text-align: center;
-    font-size: 35px;
-    color: white;
-    padding: 20px;
-    padding-bottom: 20px;
-}
-.texto{
-    text-align: center;
-    color: white;
-    margin: 20px 0;   
-}
-.servicios{
-    padding-top: 40px;
-    padding-bottom: 20px;
-    display: flex;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-}
-.servicio {
-    font-size: 20px;
-    width: 10em;
-    height: 10em;
-    background-image: url(../../recursos/habitacionprincipal.jpg);
-    background-size: cover;
-    background-position: center;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 50%;
-    text-align: center;
-}
+    color: white !important;
+    margin: 0px 0;
+    padding: 20px;   
 
+}
+.experience-slide-text p {
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 2.5rem; }
+  
+  .grilla_servicios {
+    padding: 0px 0px; }
+  
+  .carousel {
+    position: relative; }
+  
+  .carousel-indicators {
+    top: 50px;
+    width: 90%;
+    margin-left: 5%;
+    position: static;
+    margin-bottom: 20px; }
+  
+  .experience-slide-one {
+    padding: 0px 25px; }
+  
+  .carousel-indicators button {
+    text-indent: 0px !important;
+    background: 0 0;
+    border: none;
+    margin: 1px !important;
+    position: relative;
+    width: 15vh !important; }
+  
+  .carousel-inner img {
+    width: 100%; }
+  
+  @media screen and (max-width: 991px) {
+    .carousel-inner img {
+      width: 100%; } }
+  
+  .carousel-indicators button:before {
+    position: absolute;
+    content: "";
+    border-top: 1px solid #000000;
+    width: 100%;
+    left: 0; }
+  
+  .carousel-indicators button h3 {
+    margin-top: -33px;
+    position: absolute;
+    left: 52%;
+    transform: translateX(-50%);
+    color: #FFFFFF;
+    font-size: 24px;
+    font-weight: bold; }
+  
+  .carousel-indicators button.active h3 {
+    color: rgb(219, 234, 222);
+    font-size: 30px;
+    position: absolute;
+    text-align: center;
+    margin-top: -49px;
+    font-weight: bold; }
+  
+  @media (max-width: 991px) {
+    .carousel-indicators button.active h3 {
+      font-size: 22px;
+      margin-top: -36px; }
+    .carousel-indicators button h3 {
+      font-size: 18px;
+      margin-top: -25px; } }
+  
+  @media (max-width: 767px) {
+    .carousel-indicators button.active h3 {
+      font-size: 16px; }
+    .carousel-indicators button h3 {
+      font-size: 12px; } }
+  
+  @media (max-width: 500px) {
+    .carousel-indicators {
+      margin-left: -2.5%;
+      width: 105%; } }
+  
+  @media (max-width: 430px) {
+    .carousel-indicators button.active h3 {
+      font-size: 12px; }
+    .carousel-indicators button h3 {
+      font-size: 10px; } }
+  
+  .experience-slide-text h4 {
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+ }
+  
+  .experience-slide-text p {
+    color: white;
+    font-size: 20px;
+    text-align: center;
+     }
+  
+  @media (max-width: 1199px) {
+    .experience-slide-text h4 {
+      font-size: 21px; }
+    .experience-slide-text p {
+      font-size: 17px; } }
+  
+  @media (max-width: 991px) {
+    .experience-slide-text h4 {
+      font-size: 15px; }
+    .experience-slide-text p {
+      font-size: 11px; } }
+  
+  .carousel-control-next,
+  .carousel-control-prev {
+    width: 2%;
+    opacity: .8; }
+  
+  .carousel-control-next i,
+  .carousel-control-prev i {
+    font-size: 35px;
+    color: 6c9839; }
+
+
+/*:::::Main-servicios fin*/
