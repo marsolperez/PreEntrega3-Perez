@@ -276,6 +276,15 @@ h2 {
   place-content: center;
   background: #283618; }
 
+/* Media queries */
+@media screen and (max-width: 767px) {
+  .gallery {
+    --s: 100px;
+    --g: 5px;
+    --f: 1.2;
+    width: calc(2*var(--s) + var(--g));
+    grid-template-columns: repeat(2, auto); } }
+
 /*:::::Main-contacto*/
 .main-contacto {
   background: #81a352;
